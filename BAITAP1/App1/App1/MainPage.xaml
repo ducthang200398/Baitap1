@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <!-- Place new controls here -->
+            <Button Text="Màn Hình Chào" Clicked="Button_Clicked_2"/>
+            <Button Text="Màn Hình Tính Tổng" HorizontalOptions="Center"  Clicked="Button_Clicked"/>
+            <Button Text="StackLayout" HorizontalOptions="Center" />
+            <Button Text="AbsoluteLayout" x:Name="cmdAbsoluteLayout" HorizontalOptions="Center" />
+            <Button Text="GridLayout" x:Name="cmdgridLayout" />
+            <Button Text="Login" x:Name="cmdlogin" Clicked="cmdlogin_Clicked"/>
+            <Button Text="FlexLayout" x:Name="cmdFlexLayout" />
+            <Button Text="ScrollView" x:Name="cmdScrollView" />
+            <Button Text="Entry" x:Name="cmdEntry" />
+            <Button Text="Listview 1" x:Name="cmdListview1" />
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+ 
+    
+    
+    
